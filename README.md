@@ -3,7 +3,7 @@
 
 #To Build go on alpine
 
-docker run -v ${pwd}:/go/src/example -it golang:alpine sh
+docker run -v ${pwd}/:/go/src/example -it golang:alpine sh
 ---
 cd src/example
 go build goapp
